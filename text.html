@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont{
+            border: 5px solid white;
+            border-bottom-color: tomato;
+            height: 50px;
+            width: 400px;
+            overflow: hidden;
+        }
+        .cont div{
+            font-size: 40px;
+            height: 100%;
+            width: 100%;
+            animation: text 4s ease-in infinite;
+        }
+        @keyframes text{
+            0%{
+                transform: translateY(0);
+            }
+            25%{
+                transform: translateY(-100%);
+            }
+            50%{
+                transform: translateY(-200%);
+            }
+            75%{
+                transform: translateY(-300%);
+            }
+            90%{
+                transform: translateY(-400%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+    <div>
+        HELLO
+    </div>
+    <div>
+        ARPITA
+    </div>
+    <div>
+        SAPNA
+    </div>
+    <div>
+        KRUTIKA
+    </div>
+    <div>
+        RUCHIKA
+    </div>
+</div>
+</body>
+</html>
